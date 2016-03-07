@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <net.xwdoor.smartbeijing.view.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/Radio_TAb_Style"
+            android:drawableTop="@drawable/radio_home_selector"
+            android:text="首页"/>
+        <RadioButton
+            android:id="@+id/rb_news"
+            style="@style/Radio_TAb_Style"
+            android:drawableTop="@drawable/radio_news_selector"
+            android:text="新闻中心"/>
+        <RadioButton
+            android:id="@+id/rb_smart"
+            style="@style/Radio_TAb_Style"
+            android:drawableTop="@drawable/radio_smart_selector"
+            android:text="智慧服务"/>
+        <RadioButton
+            android:id="@+id/rb_gov"
+            style="@style/Radio_TAb_Style"
+            android:drawableTop="@drawable/radio_gov_selector"
+            android:text="政务指南"/>
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/Radio_TAb_Style"
+            android:drawableTop="@drawable/radio_setting_selector"
+            android:text="设置"/>
+    </RadioGroup>
+</LinearLayout>
