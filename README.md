@@ -8,3 +8,5 @@ android 项目: 智慧北京
 - Fragment 相关知识的使用
 - 开源项目的引用和使用
 - UI 架构的策略
+
+参考博客：[http://blog.csdn.net/xwdoor/article/details/50615497](http://blog.csdn.net/xwdoor/article/details/50615497 "参考")
